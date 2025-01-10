@@ -94,3 +94,9 @@
 	grid-template-columns: 1fr 4fr;
 	gap: 4px;
 }
+
+.header {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-column: 1 / -1;
+}
