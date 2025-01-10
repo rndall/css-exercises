@@ -119,3 +119,14 @@ li {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 }
+
+.sidebar {
+	display: grid;
+	gap: 50px;
+	grid-row: 2 / 4;
+}
+
+.sidebar > * {
+	display: grid;
+	align-items: center;
+}
