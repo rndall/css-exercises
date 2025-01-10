@@ -141,6 +141,10 @@ li {
 	height: 200px;
 }
 
+.card p {
+	padding: 5px;
+}
+
 .footer {
 	grid-column: 1 / -1;
 }
