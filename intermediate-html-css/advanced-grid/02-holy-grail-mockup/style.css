@@ -103,6 +103,11 @@ li {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 	grid-column: 1 / -1;
+	align-items: center;
+}
+
+.logo {
+	justify-self: start;
 }
 
 .menu ul {
